@@ -13,8 +13,6 @@ const port = process.env.PORT
 //     res.status(503).send('Site is currently down. Check back soon!')
 // })
 
-
-
 // const multer = require('multer')
 // const upload = multer({
 //     dest: 'images',
@@ -65,6 +63,5 @@ const port = process.env.PORT
 // tasks()
 
 app.listen(port, () => {
-    console.log('Server is up on port ' + port)
+  console.log('Server is up on port ' + port)
 })
-
